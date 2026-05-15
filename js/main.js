@@ -1,11 +1,12 @@
-const noodle = [
+const products = [
     {
       img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/01.jpg',
       name:'noodle one',
       text:`Orci varius natoque penatibus et <br>
       magnis dis parturient montes,<br>
        nascetur ridiculus mus.`,
-      price:'12$' 
+      price:'12$' ,
+      id:1
     },
     {
       img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/02.jpg',
@@ -13,7 +14,8 @@ const noodle = [
       text:`Orci varius natoque penatibus et <br>
       magnis dis parturient montes,<br>
        nascetur ridiculus mus.`,
-      price:'66$' 
+      price:'66$',
+      id:1 
     },
     {
       img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/03.jpg',
@@ -21,7 +23,8 @@ const noodle = [
       text:`Orci varius natoque penatibus et <br>
       magnis dis parturient montes,<br>
        nascetur ridiculus mus.`,
-      price:'89$' 
+      price:'89$' ,
+      id:1
     },
     {
       img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/04.jpg',
@@ -29,7 +32,8 @@ const noodle = [
       text:`Orci varius natoque penatibus et <br>
       magnis dis parturient montes,<br>
        nascetur ridiculus mus.`,
-      price:'100$' 
+      price:'100$', 
+      id:1
     },
     {
       img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/05.jpg',
@@ -37,7 +41,8 @@ const noodle = [
       text:`Orci varius natoque penatibus et <br>
       magnis dis parturient montes,<br>
        nascetur ridiculus mus.`,
-      price:'132$' 
+      price:'132$', 
+      id:2
     },
     {
       img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/06.jpg',
@@ -45,7 +50,8 @@ const noodle = [
       text:`Orci varius natoque penatibus et <br>
       magnis dis parturient montes,<br>
        nascetur ridiculus mus.`,
-      price:'57$' 
+      price:'57$' ,
+      id:2
     },
     {
       img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/07.jpg',
@@ -53,7 +59,8 @@ const noodle = [
       text:`Orci varius natoque penatibus et <br>
       magnis dis parturient montes,<br>
        nascetur ridiculus mus.`,
-      price:'92$' 
+      price:'92$' ,
+      id:2
     },
         {
       img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/08.jpg',
@@ -61,171 +68,84 @@ const noodle = [
       text:`Orci varius natoque penatibus et <br> 
       magnis dis parturient montes, <br>
        nascetur ridiculus mus.`,
-      price:'22$' 
-    }
+      price:'22$' ,
+      id:2
+    },
+        {
+      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/08.jpg',
+      name:'Nopol',
+      text:`Orci varius natoque penatibus et <br> 
+      magnis dis parturient montes, <br>
+       nascetur ridiculus mus.`,
+      price:'22$' ,
+      id:3
+    },
+        {
+      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/03.jpg',
+      name:'One',
+      text:`Orci varius natoque penatibus et <br>
+      magnis dis parturient montes,<br>
+       nascetur ridiculus mus.`,
+      price:'89$',
+      id:3
+    },
+        {
+      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/02.jpg',
+      name:'Nooe',
+      text:`Orci varius natoque penatibus et <br>
+      magnis dis parturient montes,<br>
+       nascetur ridiculus mus.`,
+      price:'66$' ,
+      id:3
+    },
+        {
+      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/06.jpg',
+      name:'Noname',
+      text:`Orci varius natoque penatibus et <br>
+      magnis dis parturient montes,<br>
+       nascetur ridiculus mus.`,
+      price:'57$' ,
+      id:3
+    },
 ]
-
-const pizza = [
-    {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/08.jpg',
-      name:'Nopol',
-      text:`Orci varius natoque penatibus et <br> 
-      magnis dis parturient montes, <br>
-       nascetur ridiculus mus.`,
-      price:'22$' 
-    },
-        {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/03.jpg',
-      name:'One',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'89$' 
-    },
-        {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/02.jpg',
-      name:'Nooe',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'66$' 
-    },
-        {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/06.jpg',
-      name:'Noname',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'57$' 
-    },
-        {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/03.jpg',
-      name:'One',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'89$' 
-    },
-        {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/06.jpg',
-      name:'Noname',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'57$' 
-    },
-            {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/02.jpg',
-      name:'Nooe',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'66$' 
-    }
-];
-
-const salad = [
-          {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/06.jpg',
-      name:'Noname',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'57$' 
-    },
-            {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/03.jpg',
-      name:'One',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'89$' 
-    },
-            {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/03.jpg',
-      name:'One',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'89$' 
-    },
-            {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/02.jpg',
-      name:'Nooe',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'66$' 
-    },
-        {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/08.jpg',
-      name:'Nopol',
-      text:`Orci varius natoque penatibus et <br> 
-      magnis dis parturient montes, <br>
-       nascetur ridiculus mus.`,
-      price:'22$' 
-    },
-    {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/02.jpg',
-      name:'Nooe',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'66$' 
-    },
-    {
-      img:'https://templatemo.com/templates/templatemo_539_simple_house/img/gallery/02.jpg',
-      name:'Nooe',
-      text:`Orci varius natoque penatibus et <br>
-      magnis dis parturient montes,<br>
-       nascetur ridiculus mus.`,
-      price:'66$' 
-    },
-];
-
 let row = document.querySelector('#products .row');
-function el(e){
+
+function el(arr){
  row.innerHTML='';
- for(let i = 0; i < e.length;i++){
+
+ for(let i = 0; i < arr.length; i++){
+
   const col = document.createElement('div');
+
   col.className = 'col';
   col.classList.add('w-25');
+
   col.innerHTML = `
-                    <div class="wrapper prod-wrap">
-                        <img src="${e[i].img}">
-                        <div class="title-2 dis-2 blue">${e[i].name}</div>
-                        <div class="prod-text dis-2">${e[i].text}</div>
-                        <div class="price dis-2 green">${e[i].price}</div>
-                    </div>
-                `;               
- row.appendChild(col);                
+    <div class="wrapper prod-wrap">
+        <img src="${arr[i].img}">
+        <div class="title-2 dis-2 blue">${arr[i].name}</div>
+        <div class="prod-text dis-2">${arr[i].text}</div>
+        <div class="price dis-2 green">${arr[i].price}</div>
+    </div>
+  `;
+
+  row.appendChild(col);
  }
 }
-el(pizza);
+
+el(products.filter(item => item.id === 1));
+
 let btn = document.querySelectorAll('.btn-green');
 
-btn[0].addEventListener('click',function(){
 
-  for(let i = 0;i < btn.length;i++){
-   btn[i].classList.remove('active');
-  }
-  el(pizza);
-  btn[0].classList.add('active');
-});
-btn[1].addEventListener('click',function(){
-   
-  for(let i = 0;i < btn.length;i++){
-   btn[i].classList.remove('active');
-  }
-  el(salad);
-  btn[1].classList.add('active');
-});
-btn[2].addEventListener('click',function(){
-  for(let i = 0;i < btn.length;i++){
-   btn[i].classList.remove('active');
-  }
-  el(noodle);
-  btn[2].classList.add('active');
-});
+for(let i = 0; i < btn.length; i++){
+  btn[i].addEventListener('click', function(){
+    for(let j = 0; j < btn.length; j++){
+      btn[j].classList.remove('active');
+    }
+    el(products.filter(item => item.id === i + 1));
+    btn[i].classList.add('active');
+  });
+}
 
 
