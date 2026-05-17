@@ -1,31 +1,34 @@
 const text = [
   {
     txt: `
-Duis blandit purus vel nenenatis rutrum. Pellentesque pellentesque 
-tincidunt lorem, ac egestas massa sollicitudin vel. Nam scelerisque 
-vulputate quam mollis pretium. Morbi condimentum volutpat.
+  You can easily book a table directly through our online
+  reservation form or by calling us at [Insert Phone Number].
+  For larger groups (8 or more people), we highly recommend 
+  booking at least 2–3 days in advance.
 `,
   },
   {
     txt: `
-   Mauris euismod odio at commodo rhoncus. Maecenas nec interdum
-    purus, sed auctor est. Sed eleifend urna nec diam consectetur, a aliquet
-     turpis facilisis. Integer est sapien, sagittis vel massa vel, interdum 
-     euismod erat. Aenean sollicitudin nisi neque, efficitur posuere urna rutrum porta.
+    Yes, we offer delivery across the city! Delivery is free for
+    all orders over $[Insert Amount]. For orders below that amount,
+    a flat delivery fee of $[Insert Amount] applies. Most deliveries
+    arrive within 45 to 60 minutes.
    `,
   },
   {
     txt: `
-  Redistributing this template as a downloadable ZIP file on any template
-   collection site is strictly prohibited. You will need to contact TemplateMo
-    for additional permissions about our templates. Thank you.
+    Absolutely! We want everyone to enjoy our food. We offer a variety
+    of vegetarian and vegan dishes, and gluten-free options are clearly
+    marked on our menu. Please inform your server or add a note to your
+    online order if you have any severe food allergies.
   `,
   },
   {
     txt: `
-   Vivamus viverra pretium ultricies. Praesent feugiat, sapien vitae blandit
-    efficitur, sem nulla venenatis nunc, vel maximus ligula sem a sem.
-     Pellentesque ligula ex, facilisis ac libero a, blandit ullamcorper enim.
+    We would love to host your special event! Our restaurant is perfect
+    for birthdays, corporate parties, and family gatherings. We offer
+    customizable group menus and full venue rental options. Please contact
+    our event manager to discuss availability and details.
    `,
   },
 ];
